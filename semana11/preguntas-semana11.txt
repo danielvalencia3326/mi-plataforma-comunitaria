@@ -1,15 +1,23 @@
 Pregunta 1: ¿Qué es una base de datos en una aplicación?
 Respuesta: B. Un sistema que permite almacenar y consultar información estructurada.
-Justificación: En el proyecto vimos que sin un lugar organizado para guardar la información no se puede hacer seguimiento. Los datos en memoria (solicitudesMock) nos mostraron que la base de datos es el archivo de la comunidad: sin ella, no hay trazabilidad ni evidencia de lo que se hizo.
+Justificación: En el proyecto vimos que sin un lugar organizado para guardar la información no se puede hacer 
+seguimiento. Los datos en memoria (solicitudesMock) nos mostraron que la base de datos es el archivo de la 
+comunidad: sin ella, no hay trazabilidad ni evidencia de lo que se hizo.
 
 Pregunta 2: ¿Qué significa CRUD en programación?
 Respuesta: A. Crear, leer, actualizar y eliminar datos.
-Justificación: Cuando armamos el formulario, el dashboard y el cambio de estados, estábamos aplicando CRUD sin darnos cuenta: crear peticiones, leerlas, actualizar estados y archivar casos. Es el ciclo de vida de cualquier información en una plataforma.
+Justificación: Cuando armamos el formulario, el dashboard y el cambio de estados, estábamos aplicando CRUD sin 
+darnos cuenta: crear peticiones, leerlas, actualizar estados y archivar casos. Es el ciclo de vida de cualquier 
+información en una plataforma.
 
 Pregunta 3: ¿Qué permite la autenticación de usuarios en una aplicación?
 Respuesta: B. Identificar usuarios y controlar quién puede acceder a ciertas funciones.
-Justificación: En la clase del login vimos que los roles (ciudadano, revisor, admin) no son decoración: son la forma de decir quién puede hacer qué. Sin autenticación, cualquiera podría modificar solicitudes ajenas y eso rompe la confianza.
+Justificación: En la clase del login vimos que los roles (ciudadano, revisor, admin) no son decoración: son la forma 
+de decir quién puede hacer qué. Sin autenticación, cualquiera podría modificar solicitudes ajenas y eso rompe la
+confianza.
 
 Pregunta 4: ¿Por qué es importante proteger datos sensibles en una plataforma digital?
 Respuesta: B. Para evitar riesgos de privacidad o uso indebido de la información.
-Justificación: A lo largo del módulo nos repitieron que solo debemos pedir los datos necesarios. Los datos reales como cédulas o direcciones no deben usarse en prácticas ni circular por Telegram o IA. La confianza de la comunidad se gana protegiendo su información.
+Justificación: A lo largo del módulo nos repitieron que solo debemos pedir los datos necesarios. Los datos reales 
+como cédulas o direcciones no deben usarse en prácticas ni circular por Telegram o IA. La confianza de la comunidad 
+se gana protegiendo su información.
