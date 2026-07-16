@@ -1,5 +1,14 @@
-El login en una aplicación es el mecanismo que permite identificar a un usuario antes de darle acceso a funciones restringidas. Funciona como una puerta de entrada que solo se abre con las credenciales correctas (usuario y contraseña). Sin él, cualquier persona podría ingresar sin control, lo que sería un problema de seguridad y privacidad.
+El login en una aplicación es el mecanismo que permite identificar a un usuario antes de darle acceso a funciones 
+restringidas. Funciona como una puerta de entrada que solo se abre con las credenciales correctas (usuario y 
+contraseña). Sin él, cualquier persona podría ingresar sin control, lo que sería un problema de seguridad y privacidad.
 
-Algunas rutas deben estar protegidas porque contienen información privada, como perfiles de usuario, registros internos o solicitudes ciudadanas que no deberían ser visibles para todo el mundo. También hay acciones críticas como editar, eliminar o cambiar estados que solo deben estar disponibles para usuarios con permisos específicos (como revisores o administradores).
+Algunas rutas deben estar protegidas porque contienen información privada, como perfiles de usuario, registros 
+internos o solicitudes ciudadanas que no deberían ser visibles para todo el mundo. También hay acciones críticas como e
+ditar, eliminar o cambiar estados que solo deben estar disponibles para usuarios con permisos específicos (como 
+revisores o administradores).
 
-La información que no debe exponerse públicamente incluye contraseñas, números de identificación, direcciones, teléfonos, correos personales, tokens de acceso, claves de API y cualquier dato sensible de la comunidad. Proteger estos datos no solo es una buena práctica, sino una obligación legal (como la Ley 1581 de 2012). La confianza de los ciudadanos en la plataforma depende de que su información esté segura y solo sea accesible para quienes realmente la necesiten.
+La información que no debe exponerse públicamente incluye contraseñas, números de identificación, direcciones, 
+teléfonos, correos personales, tokens de acceso, claves de API y cualquier dato sensible de la comunidad. Proteger 
+estos datos no solo es una buena práctica, sino una obligación legal (como la Ley 1581 de 2012). La confianza de los 
+ciudadanos en la plataforma depende de que su información esté segura y solo sea accesible para quienes realmente la 
+necesiten.
