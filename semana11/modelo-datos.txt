@@ -10,7 +10,9 @@ Campos principales:
 - estado (borrador, pendiente, revisado, enviado, cerrado)
 
 Propósito:
-Almacenar las solicitudes ciudadanas que ingresan a la plataforma. Cada petición tiene un ciclo de vida que va desde que se crea hasta que se cierra, y el estado permite saber en qué etapa está, tal como vimos en el dashboard de seguimiento.
+Almacenar las solicitudes ciudadanas que ingresan a la plataforma. Cada petición tiene un ciclo de vida que va 
+desde que se crea hasta que se cierra, y el estado permite saber en qué etapa está, tal como vimos en el dashboard 
+de seguimiento.
 
 Entidad: Seguimiento
 
@@ -24,4 +26,6 @@ Campos principales:
 - responsable (nombre o rol de quien hizo el cambio)
 
 Propósito:
-Registrar el historial de cambios de cada petición. Esto permite saber quién, cuándo y por qué se modificó el estado, lo que da trazabilidad y transparencia al proceso, como nos enseñaron en las clases sobre revisión y cambio de estado.
+Registrar el historial de cambios de cada petición. Esto permite saber quién, cuándo y por qué se modificó el 
+estado, lo que da trazabilidad y transparencia al proceso, como nos enseñaron en las clases sobre revisión y cambio 
+de estado.
