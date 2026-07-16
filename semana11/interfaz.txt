@@ -1,9 +1,19 @@
-La interfaz de la plataforma debe ser clara, ordenada y fácil de usar para cualquier ciudadano. Tendrá tres secciones principales:
+La interfaz de la plataforma debe ser clara, ordenada y fácil de usar para cualquier ciudadano. Tendrá tres secciones 
+principales:
 
-1. Un formulario para crear una causa, ubicado en la parte superior. Incluirá campos para título (breve y directo), descripción (explicación del problema o necesidad) y fecha (automática o seleccionable). Al enviar, la causa se guarda y aparece inmediatamente en la lista de causas disponibles.
+1. Un formulario para crear una causa, ubicado en la parte superior. Incluirá campos para título (breve y directo), 
+descripción (explicación del problema o necesidad) y fecha (automática o seleccionable). Al enviar, la causa se guarda 
+y aparece inmediatamente en la lista de causas disponibles.
 
-2. Una lista de causas disponibles, donde se muestran todas las causas registradas. Cada causa se presenta con su título, descripción, fecha de creación y un contador de apoyos que indica cuántas personas la han respaldado. Además, cada causa tendrá un botón de "Apoyar" que, al hacer clic, incrementa el contador y registra el apoyo sin necesidad de que el usuario se identifique (a menos que quiera dejar un comentario opcional).
+2. Una lista de causas disponibles, donde se muestran todas las causas registradas. Cada causa se presenta con su 
+título, descripción, fecha de creación y un contador de apoyos que indica cuántas personas la han respaldado. Además, 
+cada causa tendrá un botón de "Apoyar" que, al hacer clic, incrementa el contador y registra el apoyo sin necesidad de 
+que el usuario se identifique (a menos que quiera dejar un comentario opcional).
 
-3. Un resumen o vista general que muestre el total de causas activas y el número total de apoyos recibidos, para que los ciudadanos vean el impacto colectivo de la comunidad.
+3. Un resumen o vista general que muestre el total de causas activas y el número total de apoyos recibidos, para que 
+los ciudadanos vean el impacto colectivo de la comunidad.
 
-La interfaz no debe mostrar información privada de los usuarios, como correos electrónicos, números de identificación o teléfonos. Solo se mostrarán los datos necesarios para la participación, como el título de la causa y el conteo de apoyos. Esto protege la privacidad de los ciudadanos, tal como lo exige la Ley 1581 de 2012 y como lo aprendimos en las clases sobre minimización de datos y protección de información sensible.
+La interfaz no debe mostrar información privada de los usuarios, como correos electrónicos, números de identificación 
+o teléfonos. Solo se mostrarán los datos necesarios para la participación, como el título de la causa y el conteo de 
+apoyos. Esto protege la privacidad de los ciudadanos, tal como lo exige la Ley 1581 de 2012 y como lo aprendimos en 
+las clases sobre minimización de datos y protección de información sensible.
