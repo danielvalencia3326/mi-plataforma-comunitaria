@@ -1,0 +1,27 @@
+Entidad: Peticion
+
+Campos principales:
+- id (identificador único)
+- ciudadano (nombre o alias de quien solicita, opcional para práctica)
+- asunto (título breve de la solicitud)
+- descripcion (detalle de lo que se pide)
+- entidad_destino (institución a la que va dirigida)
+- fecha_creacion (cuándo se registró)
+- estado (borrador, pendiente, revisado, enviado, cerrado)
+
+Propósito:
+Almacenar las solicitudes ciudadanas que ingresan a la plataforma. Cada petición tiene un ciclo de vida que va desde que se crea hasta que se cierra, y el estado permite saber en qué etapa está, tal como vimos en el dashboard de seguimiento.
+
+Entidad: Seguimiento
+
+Campos principales:
+- id (identificador único)
+- peticion_id (relación con la petición que se está revisando)
+- fecha_cambio (cuándo se registró el cambio)
+- estado_anterior (estado previo)
+- estado_nuevo (estado al que se cambia)
+- observacion (comentario del revisor sobre el cambio)
+- responsable (nombre o rol de quien hizo el cambio)
+
+Propósito:
+Registrar el historial de cambios de cada petición. Esto permite saber quién, cuándo y por qué se modificó el estado, lo que da trazabilidad y transparencia al proceso, como nos enseñaron en las clases sobre revisión y cambio de estado.
